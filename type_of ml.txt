@@ -1,0 +1,114 @@
+TYPES OF MACHINE  LEARNING                                                                                                                                                                                                🔵 1. Supervised Learning
+Definition: The model learns from labeled data (input and corresponding output).
+
+Goal: Predict output from new inputs based on learned relationships.
+
+Examples:
+
+Email Spam Detection
+
+House Price Prediction
+
+Loan Approval
+
+Algorithms:
+
+Linear Regression
+
+Logistic Regression
+
+Decision Trees
+
+Support Vector Machine (SVM)
+
+K-Nearest Neighbors (KNN)
+
+Sub-types:
+
+Regression: Predict continuous values (e.g., price, salary)
+
+Classification: Predict categories (e.g., spam/ham, disease/no disease)
+
+🟡 2. Unsupervised Learning
+Definition: The model works with unlabeled data, finding hidden patterns or structures.
+
+Goal: Discover underlying structure in data without predefined labels.
+
+Examples:
+
+Customer Segmentation
+
+Market Basket Analysis
+
+Anomaly Detection
+
+Algorithms:
+
+K-Means Clustering
+
+Hierarchical Clustering
+
+Principal Component Analysis (PCA)
+
+DBSCAN
+
+🔴 3. Semi-Supervised Learning
+Definition: Uses a small amount of labeled data and a large amount of unlabeled data.
+
+Goal: Improve learning accuracy when labeled data is scarce.
+
+Examples:
+
+Medical Diagnosis (few labeled patient reports)
+
+Web Page Classification
+
+Techniques:
+
+Self-training
+
+Co-training
+
+Graph-based methods
+
+🟢 4. Reinforcement Learning (RL)
+Definition: The model learns through trial and error to maximize a reward.
+
+Goal: Learn a sequence of decisions by interacting with an environment.
+
+Key Concepts:
+
+Agent: Learner/decision-maker
+
+Environment: What the agent interacts with
+
+Reward: Feedback signal for actions
+
+Examples:
+
+Game Playing (e.g., AlphaGo, Chess)
+
+Robotics
+
+Autonomous Vehicles
+
+Algorithms:
+
+Q-Learning
+
+Deep Q-Networks (DQN)
+
+Policy Gradient Methods
+
+🔘 5. Self-Supervised Learning (emerging type)
+Definition: A form of supervised learning where the labels are generated from the data itself.
+
+Goal: Pre-train models using large unlabeled datasets.
+
+Examples:
+
+Natural Language Processing (e.g., BERT, GPT)
+
+Image recognition pre-training
+
+Common in: Deep Learning, especially in NLP and Vision.
