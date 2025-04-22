@@ -1,0 +1,55 @@
+✅ What is a Library in Python?
+A library in Python is a collection of pre-written code that you can reuse in your own programs.
+Instead of writing everything from scratch, you just import a library and use its functions or classes.
+
+Think of a library like a toolbox. If you're building something (a project), you open the toolbox (import the library) and use the tools (functions) inside.
+
+🔰 Why Use Libraries?
+Save time
+
+Avoid writing complex code yourself
+
+Reuse tested and optimized functions
+
+Make your code shorter and cleaner
+
+Help with specific tasks like data analysis, machine learning, web dev, etc.
+
+🧩 Types of Libraries in Python (Based on Use)
+Here are the main types of libraries:
+
+🔹 1. Standard Libraries (Built-in)
+These come pre-installed with Python.
+
+Examples:
+
+
+Library	Use
+math	Math operations
+datetime	Work with dates/times
+os	Operating system interaction
+sys	System-specific parameters
+random	Generate random numbers
+✅ You don’t need to install these. Just use import.
+
+🔹 2. External Libraries (Third-party)
+These are not included in Python by default.
+You need to install them using pip (Python package manager).
+
+Examples:
+
+
+Library	Use
+pandas	Data analysis
+matplotlib	Data visualization
+scikit-learn	Machine learning
+Flask	Web development
+TensorFlow	Deep learning
+🧠 Install with:
+
+bash
+Copy
+Edit
+pip install library-name
+🔹 3. Custom/User-defined Libraries
+You can also create your own library by writing functions in a .py file and importing it into other programs.
