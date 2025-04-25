@@ -1,0 +1,104 @@
+
+🔹 What is Seaborn?
+Seaborn is a Python data visualization library based on Matplotlib. It provides a high-level interface for creating attractive and informative statistical graphics.
+
+🔗 Built on top of Matplotlib + integrates well with Pandas DataFrames
+
+💡 Why Use Seaborn?
+Simplifies complex plots with less code
+
+Beautiful and aesthetic default themes
+
+Works directly with Pandas DataFrames
+
+Built-in support for statistical plots (like regression, boxplot, violin, etc.)
+
+🔧 Getting Started
+python
+Copy
+Edit
+import seaborn as sns
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load built-in dataset
+data = sns.load_dataset('tips')
+🎯 Common Seaborn Plots
+1. Distribution Plots
+sns.histplot(), sns.kdeplot(), sns.displot()
+python
+Copy
+Edit
+sns.histplot(data['total_bill'])
+sns.kdeplot(data['total_bill'], shade=True)
+2. Categorical Plots
+sns.boxplot(), sns.violinplot(), sns.stripplot(), sns.swarmplot()
+python
+Copy
+Edit
+sns.boxplot(x='day', y='total_bill', data=data)
+sns.violinplot(x='day', y='total_bill', data=data)
+3. Bar Plot
+sns.barplot() — shows mean by default
+python
+Copy
+Edit
+sns.barplot(x='day', y='total_bill', data=data)
+4. Count Plot
+sns.countplot() — counts number of occurrences
+python
+Copy
+Edit
+sns.countplot(x='day', data=data)
+5. Scatter Plot
+sns.scatterplot() — for 2D relationships
+python
+Copy
+Edit
+sns.scatterplot(x='total_bill', y='tip', data=data)
+6. Line Plot
+sns.lineplot()
+python
+Copy
+Edit
+sns.lineplot(x='size', y='tip', data=data)
+7. Pair Plot
+sns.pairplot() — great for exploring relationships between variables
+python
+Copy
+Edit
+sns.pairplot(data)
+8. Heatmap
+sns.heatmap() — visualize correlation matrix or 2D data
+python
+Copy
+Edit
+sns.heatmap(data.corr(), annot=True, cmap='coolwarm')
+9. Regression Plot
+sns.regplot(), sns.lmplot() — fit linear regression models
+python
+Copy
+Edit
+sns.regplot(x='total_bill', y='tip', data=data)
+🎨 Customization
+Themes: sns.set_theme(style='darkgrid')
+
+Color palettes: sns.color_palette('pastel')
+
+You can combine Seaborn + Matplotlib for advanced plots.
+
+🧠 Tips to Remember
+Always pass DataFrame columns by name, not series directly.
+
+Use hue, style, size parameters for multi-dimensional visualizations.
+
+Works beautifully with grouped and aggregated data.
+
+✅ Applications of Seaborn
+Data exploration (EDA)
+
+Feature selection (correlation heatmaps)
+
+Visual storytelling (presentations/reports)
+
+Statistical analysis and insights
