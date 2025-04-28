@@ -1,0 +1,33 @@
+Matplotlib - Theory in Hinglish:
+🔹 Matplotlib ek Python library hai jo data ko visually represent karne ke liye use hoti hai, especially graphs aur charts banane ke liye.
+
+🔹 Ye mainly 2D plotting ke liye famous hai, aur scientific graphs banane ke liye widely use hoti hai.
+
+🔹 Iska main module pyplot hai, jisko generally import matplotlib.pyplot as plt ke naam se import karte hain.
+
+📊 Commonly Used Plot Types:
+Line Plot – data points ko line se jodta hai.
+plt.plot(x, y)
+
+Bar Chart – categorical data ke liye.
+plt.bar(x, height)
+
+Histogram – data ke distribution ko dikhata hai.
+plt.hist(data)
+
+Scatter Plot – 2 variables ke relation ko show karta hai.
+plt.scatter(x, y)
+
+Pie Chart – percentage ya proportion dikhata hai.
+plt.pie(data)
+
+🛠️ Important Functions:
+plt.title() → Graph ka title set karta hai.
+
+plt.xlabel() / plt.ylabel() → X aur Y axis ka label set karta hai.
+
+plt.legend() → Graph ke elements ka label show karta hai.
+
+plt.grid() → Graph mein grid lines add karta hai.
+
+plt.show() → Graph ko screen pe show karta hai.
