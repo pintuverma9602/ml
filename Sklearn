@@ -1,0 +1,86 @@
+Scikit-Learn (sklearn) 
+Scikit-Learn is an open-source machine learning library for Python. It is built on top of other popular libraries like NumPy, SciPy, and matplotlib. It provides simple and efficient tools for data mining, data analysis, and machine learning, making it one of the most widely used ML libraries.
+
+✅ Main Features:
+Simple & Consistent API
+
+Efficient implementation of algorithms
+
+Supports both supervised and unsupervised learning
+
+Built-in tools for model evaluation and selection
+
+Utilities for preprocessing data and feature engineering
+
+✅ Key Components in Sklearn:
+Supervised Learning Algorithms
+Classification:
+
+LogisticRegression, KNeighborsClassifier, SVC (Support Vector Classifier), DecisionTreeClassifier, RandomForestClassifier
+
+Regression:
+
+LinearRegression, Ridge, Lasso, SVR (Support Vector Regression), DecisionTreeRegressor
+
+Unsupervised Learning Algorithms
+Clustering:
+
+KMeans, DBSCAN, AgglomerativeClustering
+
+Dimensionality Reduction:
+
+PCA (Principal Component Analysis), t-SNE
+
+Model Selection
+Cross-validation: cross_val_score
+
+Hyperparameter tuning: GridSearchCV, RandomizedSearchCV
+
+Metrics: accuracy_score, mean_squared_error, classification_report
+
+Preprocessing
+Scaling: StandardScaler, MinMaxScaler
+
+Encoding: LabelEncoder, OneHotEncoder
+
+Imputation: SimpleImputer
+
+Splitting: train_test_split
+
+Feature Selection & Extraction
+SelectKBest
+
+RFE (Recursive Feature Elimination)
+
+✅ Typical Workflow in Sklearn
+Load Dataset (CSV or from sklearn.datasets)
+
+Preprocess (cleaning, encoding, scaling)
+
+Split Data (train_test_split)
+
+Choose Model (e.g., LogisticRegression())
+
+Train Model (fit())
+
+Predict (predict())
+
+Evaluate (using metrics)
+
+✅ Advantages of Scikit-Learn
+Easy to learn and use
+
+Well-documented
+
+Huge community support
+
+Integrates well with Pandas, NumPy, Matplotlib
+
+Excellent for beginners and professionals
+
+✅ Limitations
+Not suitable for deep learning (use TensorFlow, PyTorch)
+
+Limited to in-memory processing (not big data scale)
+
+Less efficient for GPU processing
