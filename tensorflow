@@ -1,0 +1,86 @@
+📘 TensorFlow Theory 
+🔹 1. What is TensorFlow?
+TensorFlow is an open-source end-to-end machine learning and deep learning framework developed by Google Brain Team. It allows developers to build and deploy ML models easily.
+
+Supports both CPU and GPU
+
+Runs on desktop, server, mobile, and edge devices
+
+Ideal for numerical computation using data flow graphs
+
+🔹 2. Why is it called TensorFlow?
+Tensor = multi-dimensional array (like matrix)
+
+Flow = computation as a graph of operations (data "flows" through the graph)
+
+So, TensorFlow = flow of tensors through a graph of operations.
+
+🔹 3. Core Components
+Component	Description
+Tensor	N-dimensional array (data)
+Graph	A set of operations organized into a computational graph
+Session (TF 1.x)	Used to execute a graph
+Eager Execution (TF 2.x)	Runs operations immediately (more intuitive)
+Keras API	High-level API to build and train models easily
+Layers	Pre-built layers for deep learning (Dense, Conv2D, etc.)
+
+🔹 4. How TensorFlow Works (Simplified Flow)
+Build a computational graph
+
+Run the graph using a session (in TF 1.x) or immediately (in TF 2.x with Eager Execution)
+
+Train the model using gradient descent or other optimizers
+
+Evaluate and deploy the model
+
+🔹 5. Tensors in TensorFlow
+Rank 0: Scalar (e.g., 5)
+
+Rank 1: Vector (e.g., [1, 2, 3])
+
+Rank 2: Matrix (e.g., [[1, 2], [3, 4]])
+
+Higher Ranks: N-dimensional arrays
+
+TensorFlow handles complex tensor operations efficiently.
+
+🔹 6. High-Level API: tf.keras
+tf.keras is a high-level deep learning API within TensorFlow. It provides:
+
+Sequential and functional model definitions
+
+Preprocessing layers
+
+Built-in training loops: model.fit(), model.evaluate(), model.predict()
+
+🔹 7. Common Use Cases
+Neural Networks (ANN, CNN, RNN, LSTM)
+
+Image Recognition
+
+Text Classification
+
+Time-Series Forecasting
+
+Reinforcement Learning
+
+Speech Recognition
+
+🔹 8. TensorFlow Ecosystem
+Tool	Purpose
+TensorBoard	Visualization tool for training metrics
+TFLite	Deploy models on mobile and embedded devices
+TFHub	Pretrained models sharing
+TFX	Production pipeline for ML
+TensorFlow.js	Run TF in the browser with JavaScript
+TensorFlow Extended (TFX)	Scalable ML pipelines
+
+🔹 9. Advantages
+Scalable (runs on GPUs, TPUs)
+
+Production-ready (TF Serving, TFX)
+
+Large community and support
+
+Integrates with Keras for simplicity
+
