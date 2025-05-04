@@ -1,0 +1,30 @@
+Polars Library (Theory Explanation)
+What is Polars?
+Polars is a fast and modern DataFrame library designed for data analysis, similar to Pandas, but much faster and more memory-efficient.
+It’s written in Rust (a systems programming language), but provides a Python API.
+
+Think of Polars as:
+
+🏎 Pandas on steroids — built for speed and handling big data smoothly.
+
+Why Polars? (Advantages)
+Speed: Much faster than Pandas, especially on big datasets.
+
+Memory Efficient: Uses less RAM.
+
+Multithreading: Uses multiple CPU cores automatically.
+
+Lazy Evaluation: Only computes results when needed (like Spark).
+
+Arrow-based: Uses Apache Arrow memory format, which is modern and efficient.
+
+Key Features
+Feature	Polars Explanation
+DataFrames	Just like Pandas — tables with rows and columns.
+Lazy & Eager Mode	Lazy: waits to execute, Eager: runs immediately.
+Parallel Processing	Uses multiple CPU cores automatically.
+Arrow Backend	Fast, columnar data format 
+Polars Modes
+Eager Mode: Works like Pandas. You write code → it runs → gives result.
+
+Lazy Mode: You build queries → Polars optimizes → runs everything at once (more efficient for big data).
