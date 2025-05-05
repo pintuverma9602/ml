@@ -1,0 +1,40 @@
+📊 Plotly Kya Hai?
+Plotly ek Python library hai jo interactive graphs banane ke liye use hoti hai.
+
+Iska use Data Science, Machine Learning projects me kiya jaata hai jab aapko charts zoom, hover, click karwana ho.
+
+Ye graphs web-based hote hain (HTML + JavaScript par based), isiliye dynamic hote hain, unlike Matplotlib ke static graphs.
+
+⭐ Plotly Ki Features:
+Interactive Graphs: Zoom in, Zoom out, hover karne pe data show.
+
+Web Friendly: Graphs ko websites pe embed kiya ja sakta hai.
+
+Multiple Chart Types: Line chart, Bar chart, Pie chart, Scatter plot, 3D charts, Heatmaps, Map charts.
+
+Dashboards: Plotly ke upar Dash naam ka framework bhi hai jo full web dashboard banata hai.
+
+Supports Big Data: Large datasets ke liye bhi graphs smooth chalte hain.
+
+🛠 Plotly ke 2 Popular Modules
+Module	Use
+plotly.graph_objects	Advance aur customizable charts ke liye
+plotly.express	Simple aur short code me charts banane ke liye
+
+✅ Beginners ke liye plotly.express easy hota hai.
+✅ Experts graph_objects se full control lete hain.
+
+🐍 Plotly Install Kaise Kare?
+python
+Copy
+Edit
+pip install plotly
+🔥 Popular Charts Jo Plotly Me Banate Hain:
+Chart Type	Use
+Line Chart	Trend dikhane ke liye
+Bar Chart	Category-wise comparison
+Pie Chart	Proportion dikhane ke liye
+Scatter Plot	Relationship check karne ke liye
+Heatmap	Correlation matrix ke liye
+Map Chart	Geo data plot karne ke liye
+3D Charts	3D visualization
