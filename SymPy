@@ -1,0 +1,92 @@
+🧮 What is SymPy?
+SymPy stands for Symbolic Python.
+
+It is a pure Python library for symbolic mathematics, similar to how you solve math problems on paper (as opposed to numerical computation like NumPy).
+
+Used for algebra, calculus, equations, matrices, discrete math, and more.
+
+📦 1. Key Features of SymPy
+Symbolic computation (e.g., keeps variables like x, y, instead of assigning numbers)
+
+Written entirely in Python (no external dependencies)
+
+Supports algebraic simplification, differentiation, integration, solving equations, series, matrices, and discrete math
+
+Generates LaTeX, code (C, Python, Fortran), and pretty printed math output
+
+🔣 2. Core Concepts
+a. Symbols
+The foundation of symbolic computation in SymPy.
+from sympy import symbols
+x, y = symbols('x y')
+b. Expressions
+You can build algebraic expressions using symbols.
+expr = x**2 + 2*x + 1
+c. Simplification
+Reduce expressions to simpler form.
+from sympy import simplify
+simplify((x**2 + 2*x + 1)/(x + 1))
+d. Substitution
+Replace symbols with values or other expressions.
+expr.subs(x, 2)  # Replaces x with 2
+🧮 3. Algebraic Operations
+Operation	Description	Example
+expand()	Expand products	(x + 1)**2 → x² + 2x + 1
+factor()	Factor expressions	x² + 2x + 1 → (x + 1)**2
+collect()	Collect like terms	x*y + x*z → x*(y + z)
+together()	Combine fractions	
+
+∫ 4. Calculus Operations
+a. Differentiation
+from sympy import diff
+diff(x**3 + x, x)  # Output: 3x² + 1
+b. Integration
+from sympy import integrate
+integrate(x**2, x)  # Output: x³/3
+c. Limits
+from sympy import limit
+limit((x**2 - 1)/(x - 1), x, 1)  # Output: 2
+d. Series Expansion
+from sympy import series
+series(sin(x), x, 0, 5)
+🧩 5. Equation Solving
+a. Algebraic Equations
+from sympy import Eq, solve
+eq1 = Eq(x**2 - 4, 0)
+solve(eq1, x)  # Output: [-2, 2]
+b. Systems of Equations
+from sympy import solve
+solve([x + y - 3, x - y - 1], (x, y))
+📐 6. Matrices
+Symbolic matrices and linear algebra:
+from sympy import Matrix
+A = Matrix([[1, x], [x, 1]])
+A.det()  # Determinant
+A.inv()  # Inverse (if it exists)
+📏 7. Discrete Mathematics
+Combinatorics: permutations, combinations, partitions.
+
+Number Theory: gcd, lcm, primes, modular arithmetic.
+
+Logic: Boolean algebra, truth tables.
+
+🖋️ 8. LaTeX & Pretty Printing
+a. Pretty Output
+from sympy import init_printinginit_printing()
+b. LaTeX Export
+from sympy import latex
+latex(expr)  # Converts expression to LaTeX string
+⚙️ 9. Code Generation
+Generate C, Python, or Fortran code from symbolic expressions:
+
+🧠 10. Use Cases
+Teaching and learning math
+
+Computer algebra systems (CAS)
+
+Symbolic integration/differentiation in scientific applications
+
+Model derivation in physics or engineering
+
+Analytical verification of ML equations
+
